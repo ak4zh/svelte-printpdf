@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { page } from '$app/stores';
 	import { pageClass } from './preferences';
 
 	type Callback = (el: HTMLElement, i: number) => void | Promise<void>;
